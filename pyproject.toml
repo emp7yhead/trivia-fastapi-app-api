@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "trivia-app-api"
+version = "0.1.0"
+description = ""
+authors = ["emp7yhead <artyomkropp@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.79.0"
+uvicorn = "^0.18.2"
+python-dotenv = "^0.20.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+pytest-cov = "^3.0.0"
+wemake-python-styleguide = "^0.16.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
