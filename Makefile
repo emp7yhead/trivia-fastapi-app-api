@@ -6,3 +6,6 @@ run:
 
 lint:
 	poetry run flake8 .
+
+migration:
+	poetry run alembic revision --autogenerate
