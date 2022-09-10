@@ -10,7 +10,7 @@ class Answer(Base):
     __tablename__ = 'Answers'
 
     id = Column(Integer, primary_key=True)
-    answer = Column(String())
+    text = Column(String())
     is_correct = Column(Boolean())
 
     def __repr__(self) -> str:
